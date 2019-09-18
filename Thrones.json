@@ -1,0 +1,363 @@
+{
+    "verbs": [
+      {
+        "v": "EXITS",
+        "map": "EXITS"
+      },
+      {
+        "v": "QUIT",
+        "map": "QUIT"
+      },
+      {
+        "v": "Q",
+        "map": "QUIT"
+      },
+      {
+        "v": "GET ME OUT OF HERE!",
+        "map": "QUIT"
+      },
+      {
+        "v": "NORTH",
+        "map": "NORTH"
+      },
+      {
+        "v": "N",
+        "map": "NORTH"
+      },
+      {
+        "v": "SOUTH",
+        "map": "SOUTH"
+      },
+      {
+        "v": "S",
+        "map": "SOUTH"
+      },
+      {
+        "v": "EAST",
+        "map": "EAST"
+      },
+      {
+        "v": "E",
+        "map": "EAST"
+      },
+      {
+        "v": "WEST",
+        "map": "WEST"
+      },
+      {
+        "v": "W",
+        "map": "WEST"
+      },
+      {
+        "v": "NE",
+        "map": "NE"
+      },
+      {
+        "v": "NORTHEAST",
+        "map": "NE"
+      },
+      {
+        "v": "NW",
+        "map": "NW"
+      },
+      {
+        "v": "NORTHWEST",
+        "map": "NW"
+      },
+      {
+        "v": "SE",
+        "map": "SE"
+      },
+      {
+        "v": "SOUTHEAST",
+        "map": "SE"
+      },
+      {
+        "v": "SOUTHWEST",
+        "map": "SW"
+      },
+      {
+        "v": "UP",
+        "map": "UP"
+      },
+      {
+        "v": "U",
+        "map": "UP"
+      },
+      {
+        "v": "DOWN",
+        "map": "DOWN"
+      },
+      {
+        "v": "D",
+        "map": "DOWN"
+      },
+      {
+        "v": "ENTER",
+        "map": "ENTER"
+      },
+      {
+        "v": "OUT",
+        "map": "OUT"
+      },
+      {
+        "v": "EXIT",
+        "map": "EXIT"
+      },
+      {
+        "v": "LEAVE",
+        "map": "LEAVE"
+      },
+      {
+        "v": "LAND",
+        "map": "LAND"
+      },
+      {
+        "v": "#!#!#",
+        "map": "#!#!#"
+      },
+      {
+        "v": "LAUNC",
+        "map": "LAUNC"
+      },
+      {
+        "v": "CROSS",
+        "map": "CROSS"
+      },
+      {
+        "v": "TAKE",
+        "map": "TAKE"
+      },
+      {
+        "v": "GET",
+        "map": "TAKE"
+      }
+    ],
+    "rooms": {
+      "Winterfell": {
+        "name": "Winterfell",
+        "desc": "This is the home of the Stark family. Most know for being the powerhouse of the North and home of Jon Snow.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "The Wall",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "The Vale",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "Dothraki Sea",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "Castle Black",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "The Wall": {
+        "name": "The Wall",
+        "desc": "You are at the Wall. The wall is the guardian of the relm. Beyond the wall is partly unknown.",
+        "exits": [
+          {
+            "verb": "WEST",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "NORTH",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Winterfell",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "The Vale": {
+        "name": "The Vale",
+        "desc": "House ruled by the Aryns. Known for having the hole, where people are thrown to die if gone against the vale.",
+        "exits": [
+          {
+            "verb": "WEST",
+            "target": "Riverrun",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Kings Landing",
+            "condition": ""
+          },
+          {
+            "verb": "NORTH",
+            "target": "Winterfell",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "Castle Black": {
+        "name": "Castle Black",
+        "desc": "The protectors of the wall and the relm reside here. One of the most unbearable places to live.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "The Wall",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Winterfell",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "NoExit",
+            "condition": ""
+          }
+         
+        ],
+        "inventory": []
+      },
+      "Dothraki Sea": {
+        "name": "Dothraki Sea",
+        "desc": "You are near the Dothraki sea. Home of battle trained wild men. Strong and fearless and consists of nearly all men.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "Winterfell",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "The Vale",
+            "condition": ""
+          }
+         
+        ],
+        "inventory": []
+      },
+      "NoExit": {
+        "name": "You died",
+        "desc": "Went to a place on the map that calls for execution.",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "NoExit",
+            "condition": ""
+          }
+      
+        ],
+        "inventory": []
+      },
+     
+      "Riverrun": {
+        "name": "Riverrun",
+        "desc": "You are at Riverrun. Owned by house Tully and one of the major locations in the North. You see that the walls are shockingly tall",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Winterfell",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Kings Landing",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "NoExit",
+            "condition": ""
+          }
+         
+        ],
+      
+        "inventory": []
+      },
+
+      "Kings Landing": {
+        "name": "Kings Landing",
+        "desc": "You have made it to Kings Landing. You are now the King and protector of 7 realms! ",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "NoExit",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "NoExit",
+            "condition": ""
+          }
+         
+        ],
+      
+        "inventory": []
+    }
+  }
+}

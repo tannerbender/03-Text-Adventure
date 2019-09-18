@@ -1,2 +1,2 @@
 # 03-Text-Adventure
-interactive fiction game
+Within This repository there are two important files. My Python file is a file that will be running a game that I have created. It will be running a list of verbs that I have created and put into a JSON file. A JSON file is basically just a file that is useful for storing information you want used in another file. In this game players will be playing a version of Game of Thrones. To win the game you must type specific verbs that will take you to a location. Once you reach the correct location you will win the game. 
