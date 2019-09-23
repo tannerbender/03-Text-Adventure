@@ -1,0 +1,47 @@
+Name:	Stephanie Davidson
+Date:	9/23/19
+Project: 03-Text-Adventure
+Peer's repository: https://github.com/tannerbender/03-Text-adventure.git 
+
+
+
+What is something you learned by reviewing your peer's project?
+
+- I learned it's easy to die in the Game of Thrones universe.
+ 
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+
+- It's very clean; the code is very straight forward.
+ 
+
+What suggestions would you have for your peer to improve his/her code?
+
+- I mean, the code itself is fine.  I will say I wasn't aware that you could actually 'win' until I read the readme.  A short print statement could have solved that.  
+ 
+
+What could have been clearer or better commented?
+
+- There aren't many comments in the code, but it's so straight forward it doesn't necessarily need it.
+ 
+
+Was there anything in the code that was confusing to you? If so, what?
+
+- N/a
+ 
+
+Does the repository contain an appropriate LICENSE?
+
+- Yes
+ 
+
+What is something he/she could add to the README.md to make it more descriptive?
+
+- Seperate the information more.  It doesn't need to all be in a paragraph; let it take up a few lines.
+ 
+
+Pay a compliment to your peer based on the quality of his/her code.
+
+- You're code is very clean and easy to follow.
+
+
