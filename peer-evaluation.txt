@@ -1,0 +1,43 @@
+Name:Bryce Whitmer
+Date:9/27/2019
+Project: Text Adventure
+Peer's repository: https://github.com/tannerbender/03-Text-adventure.git
+
+
+
+What is something you learned by reviewing your peer's project?
+They like Games of Thrones, and they used the original code not useing what was given to make it easier.
+They basicly made a new code useing what they were given and moddified it to work practically flawlessly.
+(they have prior knowledge of coding or they are a very fast learner)
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+Well in mine you just roam around with no objective or obstacles. In this code you die if you go the wrong way and it ends it as well as if you get to the end it ends as well.
+Basicly I could have made an end to mine to improve it.
+ 
+
+What suggestions would you have for your peer to improve his/her code?
+1. I have never watched any of the tv "Drama series"(thats what google calls it) so I dont know were to go or were stuff it. That is the point to a text adventure though so it might just be me complaning.
+    because I dont like when I have to restart because I did one thing wrong.
+2. that leads to my other point I would have like a list of exits when I typed exits thats when I found another flaw
+3. If you type in anything thats not a verb. It simply repeats itself. (could have made it print sorry I dont no that verb or something close)
+    (could be a feature^^^^^^)
+
+What could have been clearer or better commented?
+The code doesnt really need comments we made it in class so we all know what it does.
+ 
+
+Was there anything in the code that was confusing to you? If so, what?
+Nope
+ 
+
+Does the repository contain an appropriate LICENSE?
+Yes
+ 
+
+What is something he/she could add to the README.md to make it more descriptive?
+Doesnt really need much more. But if someone that wasnt in the class and had no knowledge of code(to an extent) might need some info on the code not just files
+ 
+
+Pay a compliment to your peer based on the quality of his/her code.
+Person shows they have skill at coding. (I was never good at giving people compliments when I have never met them)
+
